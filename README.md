@@ -19,12 +19,15 @@
 ## 簡介
 mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br>
 其中，mysql 套件在舊版 Node.js 中使用較多，而 mysql2 則是較新的版本。<br>
-在功能上，mysql2是相容於mysql 並直接包裝 Promise 和 async/await，可以更方便地處理非同步的資料庫操作，也提供更好的性能表現。<br>
+在功能上，mysql2是相容於mysql 並直接包裝 Promise 和 async/await，<br>
+可以更方便地處理非同步的資料庫操作，也提供更好的性能表現。<br>
 <br>
 此外，mysql2 也支援多種資料庫連線方式，<br>
-包括 TCP、Unix domain socket 和 Named pipes。而 mysql 套件也有相似的功能，但需要額外安裝相應的套件來支援。<br>
+包括 TCP、Unix domain socket 和 Named pipes。<br>
+而 mysql 套件也有相似的功能，但需要額外安裝相應的套件來支援。<br>
 <br>
-總體來說，mysql2 是一個功能更為豐富，且具有更好性能表現的套件，而 mysql 則是舊版 Node.js 中使用較多的套件。<br>
+總體來說，mysql2 是一個功能更為豐富，且具有更好性能表現的套件，<br>
+而 mysql 則是舊版 Node.js 中使用較多的套件。<br>
 如果你正在使用較新的 Node.js 版本，建議使用 mysql2 套件。<br>
 
 <br>
