@@ -38,7 +38,7 @@ mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br
 - U - 更新資料 (Update)
 - D - 刪除資料 (Delete)
 
-<br>
+---
 
 ## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-mysql2/blob/main/src/examples/example1.ts) - MySQL2基本使用(CRUD).
