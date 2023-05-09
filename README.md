@@ -1,11 +1,12 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - MySQL2 數據庫操作(CURD)
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-<br>
+---
 
 <!--ts-->
 ## 目錄
 * [簡介](#簡介)
+* [實作範例](#實作範例)
 * [使用套件](#使用套件)
 * [操作說明](#操作說明)
 * [延伸項目](#延伸項目)
@@ -14,9 +15,8 @@
 <!--te-->
 
 ---
-<br>
 
-## 簡介
+## 簡介:
 mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br>
 其中，mysql 套件在舊版 Node.js 中使用較多，而 mysql2 則是較新的版本。<br>
 在功能上，mysql2是相容於mysql 並直接包裝 Promise 和 async/await，<br>
@@ -40,20 +40,18 @@ mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br
 
 <br>
 
-實作範例:
+## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-mysql2/blob/main/src/examples/example1.ts) - MySQL2基本使用(CRUD).
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-mysql2/blob/main/src/examples/example2.ts) - MySQL2非同步使用(CRUD).
 
 ---
-<br>
 
-## 使用套件.
+## 使用套件:
 - mysql2
 
 ---
-<br>
 
-## 操作說明.
+## 操作說明:
 #### 1. 安裝MySQL[^1]
 > 請自行上網查詢，或著可以參考下方的分享資料.
 #### 2. 安裝Workbench[^2]
@@ -64,23 +62,23 @@ mysql 和 mysql2 是 Node.js 中操作 MySQL 資料庫的兩個常用套件. <br
 > npm run start
 
 ---
-<br>
 
-## 延伸項目
+## 延伸項目:
 * [NodeJs 系列實作](https://github.com/RC-Dev-Tech/nodejs-index) <br>
 
 ---
-<br>
 
-## 參考資料
+## 參考資料:
 * [npm mysql2](https://npm.io/package/mysql2) <br>
 
-
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
+
 ## 備註：
 [^1]: 由於該範例是著重在MySQL(CURD)的操作，所以安裝MySQL跟其操作細節，這邊就不多加說明.
 [^2]: 同上.
